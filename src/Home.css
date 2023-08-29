@@ -1,17 +1,46 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
+  @import url(./App.css);
 
-.container {
-  background-color: blue;
-}
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
 
-.navbar {
-  border: 1px solid red;
-  padding: 3rem 10rem;
-}
+  .container {
+  }
 
-.logo-img{
-    width: 2%
-}
+  .navbar {
+    border: 1px solid red;
+    padding: 3rem 10rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-img {
+    width: 10%;
+  }
+
+  .logo-text {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-left: 10px;
+  }
+
+  .links-container {
+    border: 1px solid red;
+    display: flex;
+  }
+
+  .links-items {
+    list-style: none;
+    padding: 25px;
+    color: var(--primary-color);
+    font-family: var(--font-family);
+    font-weight: bold;
+  }
