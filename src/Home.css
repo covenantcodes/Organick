@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  background-color: blue;
+}
+
+.navbar {
+  border: 1px solid red;
+  padding: 3rem 10rem;
+}
+
+.logo-img{
+    width: 2%
+}
