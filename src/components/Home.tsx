@@ -9,7 +9,7 @@ const Home = () => {
 
         <div className="logo">
           <img src="../../public/img/Logo.png" className="logo-img" />
-          <div className="logo-text">GroovyKids Store</div>
+          <div className="logo-text">Organick</div>
         </div>
 
         {/* navigation links */}
@@ -23,14 +23,33 @@ const Home = () => {
         </div>
 
         {/* Search bar */}
-        <div className="search-bar">
-          <div className="search-box">
-              <input type="text" placeholder="Search" className="search-input" />
-              <div className="search-icon-container">
-                  <img src="../../public/img/search.png" alt="" className="search-icon"/>
-              </div>
+        <div className="left-container">
+          <div className="search-container">
+            <input type="text" placeholder="Search" className="search-input" />
+            <div className="search-icon-container">
+              <img
+                src="../../public/img/search.png"
+                alt=""
+                className="search-icon"
+              />
+            </div>
+          </div>
+
+          <div className="cart-container">
+            <div className="cart-icon-container">
+              <img
+                src="../../public/img/bag.png"
+                alt=""
+                className="search-icon"
+              />
+            </div>
+              <div className="cart-text">Cart (0)</div>
           </div>
         </div>
+      </div>
+
+      <div className="banner">
+
       </div>
     </div>
   );
