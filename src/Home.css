@@ -61,9 +61,15 @@
   .search-input{
     border: none;
     background-color: var(--background-color);
+    outline: none; 
 
   }
 
-  .search-input::focus{
-    border: none; 
+
+  .search-icon-container{
+    background-color: var(--secondary-color);
+  }
+
+  .search-icon{
+      width: 10%;
   }

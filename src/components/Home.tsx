@@ -26,6 +26,9 @@ const Home = () => {
         <div className="search-bar">
           <div className="search-box">
               <input type="text" placeholder="Search" className="search-input" />
+              <div className="search-icon-container">
+                  <img src="../../public/img/search.png" alt="" className="search-icon"/>
+              </div>
           </div>
         </div>
       </div>
