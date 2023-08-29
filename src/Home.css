@@ -44,3 +44,26 @@
     font-family: var(--font-family);
     font-weight: bold;
   }
+
+  .search-bar{
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-box{
+      background-color: var(--background-color);
+      padding: 1rem;
+      border-radius: 2rem;
+  }
+
+  .search-input{
+    border: none;
+    background-color: var(--background-color);
+
+  }
+
+  .search-input::focus{
+    border: none; 
+  }
