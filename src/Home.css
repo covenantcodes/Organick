@@ -137,7 +137,6 @@
   }
 
   .banner_left{
-    border: 1px solid red;
     padding: 2rem;
     width: 40%;
 
@@ -157,15 +156,35 @@
   }
 
   .action_button{
-    border: 1px solid red;
     padding: 1rem;
-    width: 18%;
+    width: 24%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--button-color);
+    border-radius: 16px;
+    font-family: var(--head-font-family);
+    color: var(--primary-color);
+  }
+  
+  .action_button:hover{
+    transform: scale(0.9);
+    transition: ease-in-out .6s all;
+    cursor: pointer;
   }
 
-  .icon_arrow{
-    margin-left: 5px;
+  .fa-arrow-right{
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    padding: 6px;
+    margin-left: 10px;
+    color: white;
+  }
+  
+  .banner_right{
+    width: 60%
+  }
+
+  .banner_sideimage{
+    width: 100%;
   }

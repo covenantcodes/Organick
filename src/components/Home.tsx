@@ -49,10 +49,12 @@ const Home = () => {
           </div>
           <div className="action_button">
               Explore Now 
-            <i className="fa-solid fa-arrow-right icon_arrow"></i>
+            <i className="fa-solid fa-arrow-right"></i>
           </div>
         </div>
-        <div className="banner_right"></div>
+        <div className="banner_right">
+            <img src="../../img/sideimg.png" className="banner_sideimage" alt="" />
+        </div>
       </div>
     </div>
   );
