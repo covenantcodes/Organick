@@ -182,9 +182,67 @@
   }
   
   .banner_right{
-    width: 60%
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center
   }
 
   .banner_sideimage{
     width: 100%;
   }
+
+  .info_container{
+    padding: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .info_box{
+    width: 40%;
+    background-image: url(../img/infobg1.jpg);
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+  }
+
+  .info_box:not(:first-child){
+    background-image: url(../img/infobg2.png);
+  }
+
+  .info_contents{
+    padding-left:4rem ;
+  }
+
+  .info_catch_text{
+    font-family: var(--stylish-font-family);
+    font-size: 2rem;
+    color: white
+  }
+
+
+  .info_main_text{
+    font-family: var(--head-font-family);
+    font-size: 2rem;
+    font-weight: bold;
+    color: white
+  }
+
+  .info_catch_text_two{
+    font-family: var(--stylish-font-family);
+    font-size: 2rem;
+    color: var(--primary-color)
+  }
+
+
+  .info_main_text_two{
+    font-family: var(--head-font-family);
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary-color)
+  }
+
+
+

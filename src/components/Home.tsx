@@ -48,12 +48,38 @@ const Home = () => {
             of life
           </div>
           <div className="action_button">
-              Explore Now 
+            Explore Now
             <i className="fa-solid fa-arrow-right"></i>
           </div>
         </div>
         <div className="banner_right">
-            <img src="../../img/sideimg.png" className="banner_sideimage" alt="" />
+          <img
+            src="../../img/delicious-fried-chicken-plate.png"
+            className="banner_sideimage"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div className="info_container">
+        <div className="info_box">
+          <div className="info_contents">
+            <div className="info_catch_text">Natural!!</div>
+            <div className="info_main_text">
+              Get Garden <br />
+              Fresh Fruits
+            </div>
+          </div>
+        </div>
+
+        <div className="info_box">
+          <div className="info_contents">
+            <div className="info_catch_text_two">Natural!!</div>
+            <div className="info_main_text_two">
+              Get Garden <br />
+              Fresh Fruits
+            </div>
+          </div>
         </div>
       </div>
     </div>
