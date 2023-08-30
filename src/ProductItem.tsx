@@ -1,5 +1,6 @@
 import React from 'react';
-import ProductCard from './components/ProductCard';
+import ProductCard from '../src/components/ProductCard';
+import './ProductCard.css'
 
 interface ProductItemProps {
   data: { id: number; name: string }[];

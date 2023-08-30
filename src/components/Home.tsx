@@ -4,9 +4,10 @@ import CustomButton from "./Button";
 import ProductItem from "../ProductItem";
 
 const sampleData = [
-  { id: 1, name: 'Item 1' },
-  { id: 2, name: 'Item 2' },
-  { id: 3, name: 'Item 3' },
+  { id: 1, name: 'Product 1' },
+  { id: 2, name: 'Product 2' },
+  { id: 3, name: 'Product 3' },
+  { id: 4, name: 'Product 4' },
 ];
 
 const Home = () => {
