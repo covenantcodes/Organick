@@ -1,6 +1,13 @@
 import "../Home.css";
 import "../App.css";
 import CustomButton from "./Button";
+import ProductItem from "../ProductItem";
+
+const sampleData = [
+  { id: 1, name: 'Item 1' },
+  { id: 2, name: 'Item 2' },
+  { id: 3, name: 'Item 3' },
+];
 
 const Home = () => {
   return (
@@ -56,7 +63,8 @@ const Home = () => {
             text="Explore Now"
             backgroundColor="#efd372"
             textColor="#274c5b"
-            iconColor="#274c5b"
+            iconColor="#ffffff"
+            width="140px"
           />
         </div>
         <div className="banner_right">
@@ -132,12 +140,32 @@ const Home = () => {
                   Simply dummy text of the printing and typesetting industry.
                   Lorem Ipsum
                 </div>
-
-
               </div>
             </div>
+
+            <CustomButton
+              text="Explore Now"
+              backgroundColor="#274C5B"
+              textColor="#ffffff"
+              iconColor="#ffff"
+              iconBackgroundColor="#335B6B"
+              width="140px"
+          />
           </div>
         </div>
+      </div>
+
+      <div className="categories">
+          <div className="categories_header">
+              Categories
+          </div>
+          <div className="products_header">
+              Our Products
+          </div>
+
+          <div className="product_container">
+              <ProductItem data={sampleData} />
+          </div>
       </div>
     </div>
   );

@@ -249,7 +249,6 @@
 .about_us{
   background-image: url(../img/Background.png);
   padding: 8rem;
-  border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -257,7 +256,6 @@
 
 .about_us_left{
     width: 50%;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -275,7 +273,6 @@
 
 .about_us_right{
   width: 50%;
-  border: 1px solid red;
   padding-left: 4rem;
 }
 
@@ -294,8 +291,8 @@
 }
 
 .about_points_container{
-  border: 1px solid red;
   padding-top: 1rem;
+  padding-bottom: 1rem;
   display: flex;
 
 }
@@ -315,4 +312,28 @@
     width: 55%;
   font-family: var(--text-font-family);
   color: var(--text-color);
+}
+
+.categories{
+  padding: 6rem;
+}
+
+.categories_header{
+  font-family: var(--stylish-font-family);
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.products_header{
+  font-family: var(--head-font-family);
+  font-size: 2rem;
+  padding-top: 1rem;
+  text-align: center;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.products_container{
+  padding: 3rem;
 }

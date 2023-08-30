@@ -1,25 +1,31 @@
-import React, { ReactNode } from 'react';
+import React, { ReactNode } from "react";
 
 interface CustomButtonProps {
   text: string;
   backgroundColor?: string;
   textColor?: string;
   iconColor?: string;
+  iconBackgroundColor?: string;
+  width?: string;
 }
 
 const CustomButton: React.FC<CustomButtonProps> = ({
   text,
-  backgroundColor = 'var(--button-color)',
-  textColor = 'var(--primary-color)',
-  iconColor = 'white',
+  backgroundColor = "var(--button-color)",
+  textColor = "var(--primary-color)",
+  iconColor = "white",
+  iconBackgroundColor = 'var(--primary-color)',
+  width = "24%",
 }) => {
   const buttonStyle: React.CSSProperties = {
     backgroundColor: backgroundColor,
     color: textColor,
+    width: width
   };
 
   const iconStyle: React.CSSProperties = {
-    backgroundColor: iconColor,
+    backgroundColor: iconBackgroundColor,
+    color: iconColor
   };
 
   return (
