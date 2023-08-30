@@ -25,7 +25,7 @@
   }
 
   .logo-text {
-    font-family: var(--Kufam-family);
+    font-family: var(--head-font-family);
     font-weight: bold;
     font-size: 2rem;
     color: var(--primary-color);
@@ -40,7 +40,7 @@
     list-style: none;
     padding: 25px;
     color: var(--primary-color);
-    font-family: var(--font-family);
+    font-family: var(--head-font-family);
     font-weight: bold;
   }
 
@@ -67,7 +67,7 @@
     outline: none;
     width: 70%;
     background-color: var(--background-color);
-    font-family: var(--font-family);
+    font-family: var(--head-font-family);
     font-size: 18px;
   }
 
@@ -122,12 +122,25 @@
   }
 
   .cart-text{
-    font-family: var(--font-family);
+    font-family: var(--head-font-family);
     margin-left: 10px;
     font-weight: bold;
   }
 
   .banner{
-    background-image: url(../public/img/patterns.png);
-    height:86vh
+    background-image: url(../img/patterns.png);
+    height:86vh;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .banner_left{
+    border: 1px solid red;
+    padding: 2rem;
+    width: 40%;
+
+  }
+
+  .stylish_text{
+    font-family: var(--stylish-font-family);
   }

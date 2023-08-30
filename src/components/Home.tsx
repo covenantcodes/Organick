@@ -8,7 +8,7 @@ const Home = () => {
         {/* logo */}
 
         <div className="logo">
-          <img src="../../public/img/Logo.png" className="logo-img" />
+          <img src="../img/Logo.png" className="logo-img" />
           <div className="logo-text">Organick</div>
         </div>
 
@@ -28,7 +28,7 @@ const Home = () => {
             <input type="text" placeholder="Search" className="search-input" />
             <div className="search-icon-container">
               <img
-                src="../../public/img/search.png"
+                src="../img/search.png"
                 alt=""
                 className="search-icon"
               />
@@ -38,7 +38,7 @@ const Home = () => {
           <div className="cart-container">
             <div className="cart-icon-container">
               <img
-                src="../../public/img/bag.png"
+                src="../img/bag.png"
                 alt=""
                 className="search-icon"
               />
@@ -49,7 +49,12 @@ const Home = () => {
       </div>
 
       <div className="banner">
-
+          <div className="banner_left">
+              <div className="stylish_text">
+                  100% Natural Food
+              </div>
+          </div>
+          <div className="banner_right"></div>
       </div>
     </div>
   );
