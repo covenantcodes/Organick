@@ -1,6 +1,7 @@
 import "../Home.css";
 import "../App.css";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 const Home = () => {
   return (
     <div className="container">
@@ -27,34 +28,31 @@ const Home = () => {
           <div className="search-container">
             <input type="text" placeholder="Search" className="search-input" />
             <div className="search-icon-container">
-              <img
-                src="../img/search.png"
-                alt=""
-                className="search-icon"
-              />
+              <img src="../img/search.png" alt="" className="search-icon" />
             </div>
           </div>
 
           <div className="cart-container">
             <div className="cart-icon-container">
-              <img
-                src="../img/bag.png"
-                alt=""
-                className="search-icon"
-              />
+              <img src="../img/bag.png" alt="" className="search-icon" />
             </div>
-              <div className="cart-text">Cart (0)</div>
+            <div className="cart-text">Cart (0)</div>
           </div>
         </div>
       </div>
 
       <div className="banner">
-          <div className="banner_left">
-              <div className="stylish_text">
-                  100% Natural Food
-              </div>
+        <div className="banner_left">
+          <div className="stylish_text">100% Natural Food</div>
+          <div className="tag_text">
+            Choose the best healthier way <br />
+            of life
           </div>
-          <div className="banner_right"></div>
+          <div className="action_button">
+              Explore Now <FontAwesomeIcon icon={faEnvelope} />
+          </div>
+        </div>
+        <div className="banner_right"></div>
       </div>
     </div>
   );

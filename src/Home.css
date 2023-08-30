@@ -130,8 +130,10 @@
   .banner{
     background-image: url(../img/patterns.png);
     height:86vh;
-    padding-left: 10rem;
+    padding-left: 15rem;
     padding-right: 10rem;
+    display: flex;
+    align-items: center;
   }
 
   .banner_left{
@@ -143,4 +145,13 @@
 
   .stylish_text{
     font-family: var(--stylish-font-family);
+    font-size: 36px;
+    color: var(--tertiary-color);
+  }
+
+  .tag_text{
+    font-family: var(--head-font-family);
+    font-weight: bolder;
+    font-size: 70px;
+    color: var(--primary-color);
   }
