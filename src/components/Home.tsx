@@ -1,5 +1,6 @@
 import "../Home.css";
 import "../App.css";
+import CustomButton from "./Button";
 
 const Home = () => {
   return (
@@ -47,10 +48,16 @@ const Home = () => {
             Choose the best healthier way <br />
             of life
           </div>
-          <div className="action_button">
+          {/* <div className="action_button">
             Explore Now
             <i className="fa-solid fa-arrow-right"></i>
-          </div>
+          </div> */}
+          <CustomButton
+            text="Explore Now"
+            backgroundColor="#efd372"
+            textColor="#274c5b"
+            iconColor="#274c5b"
+          />
         </div>
         <div className="banner_right">
           <img
@@ -78,6 +85,56 @@ const Home = () => {
             <div className="info_main_text_two">
               Get Garden <br />
               Fresh Fruits
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="about_us">
+        <div className="about_us_left">
+          <img src="../../img/oranges.png" alt="" className="oranges_pic" />
+        </div>
+        <div className="about_us_right">
+          <div className="about_us_header">About Us</div>
+          <div className="about_tagline">
+            We Believe in Working <br />
+            Accredited Farmers
+          </div>
+          <div className="about_tagline_description">
+            Simply dummy text of the printing and typesetting industry. Lorem
+            had ceased to been the industry's standard dummy text ever since the
+            1500s, when an unknown printer took a galley.
+          </div>
+
+          <div className="about_points_box">
+            <div className="about_points_container">
+              <div className="about_points_icon">
+                <img src="../../img/organic.png" alt="" />
+              </div>
+
+              <div className="about_points_text_container">
+                <div className="about_points_text_head">Organic Foods Only</div>
+                <div className="about_points_text">
+                  Simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum
+                </div>
+              </div>
+            </div>
+
+            <div className="about_points_container">
+              <div className="about_points_icon">
+                <img src="../../img/quality.png" alt="" />
+              </div>
+
+              <div className="about_points_text_container">
+                <div className="about_points_text_head">Quality Standards</div>
+                <div className="about_points_text">
+                  Simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum
+                </div>
+
+
+              </div>
             </div>
           </div>
         </div>

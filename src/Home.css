@@ -165,6 +165,7 @@
     border-radius: 16px;
     font-family: var(--head-font-family);
     color: var(--primary-color);
+    font-weight: bold;
   }
   
   .action_button:hover{
@@ -193,7 +194,7 @@
   }
 
   .info_container{
-    padding: 6rem;
+    padding: 10rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -245,4 +246,73 @@
   }
 
 
+.about_us{
+  background-image: url(../img/Background.png);
+  padding: 8rem;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.about_us_left{
+    width: 50%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oranges_pic{
+  width: 70%;
+}
+
+.about_us_header{
+  font-family: var(--stylish-font-family);
+    font-size: 1.5rem;
+    color: var(--secondary-color)
+} 
+
+.about_us_right{
+  width: 50%;
+  border: 1px solid red;
+  padding-left: 4rem;
+}
+
+.about_tagline{
+  font-family: var(--head-font-family);
+  font-size: 2rem;
+  color: var(--primary-color);
+  font-weight: bolder;
+}
+
+.about_tagline_description{
+  font-family: var(--text-font-family);
+  color: var(--text-color);
+  width: 70%;
+  text-align: justify;
+}
+
+.about_points_container{
+  border: 1px solid red;
+  padding-top: 1rem;
+  display: flex;
+
+}
+
+.about_points_text_container{
+  padding: 1rem;
+}
+
+.about_points_text_head{
+  color: var(--primary-color);
+  font-family:var(--head-font-family);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.about_points_text{
+    width: 55%;
+  font-family: var(--text-font-family);
+  color: var(--text-color);
+}
