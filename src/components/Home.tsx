@@ -1,7 +1,6 @@
 import "../Home.css";
 import "../App.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
 const Home = () => {
   return (
     <div className="container">
@@ -49,7 +48,8 @@ const Home = () => {
             of life
           </div>
           <div className="action_button">
-              Explore Now <FontAwesomeIcon icon={faEnvelope} />
+              Explore Now 
+            <i className="fa-solid fa-arrow-right icon_arrow"></i>
           </div>
         </div>
         <div className="banner_right"></div>
