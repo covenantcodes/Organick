@@ -8,7 +8,7 @@ interface ProductItemProps {
 
 const ProductItem: React.FC<ProductItemProps> = ({ data }) => {
   return (
-    <ul>
+    <ul className='product_main_container'>
       {data.map(item => (
         <ProductCard key={item.id} item={item} />
       ))}

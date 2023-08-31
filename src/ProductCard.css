@@ -2,19 +2,18 @@
 
 .product_box{
     display: flex;
-    flex-direction: column; /* Change the flex direction to column */
-    border: 1px solid red;
+    flex-direction: column; 
     padding: 1.5rem;
     margin: 1rem;
     background-color: #F9F8F8;
-    /* width: 28%; */
+    border-radius: 30px;
 }
 
-ul{
-    border: 1px solid red;
+.product_main_container{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 4rem;
 }
 
 .category{
@@ -34,10 +33,13 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 300px;
+    
 }
 
 .product_image{
-    width: 60%;
+    width: 80%;
+    filter: drop-shadow(0.15rem 0.15rem 0.55rem rgba(0, 0, 0, 0.5));
 }
 
 .product_name{
@@ -46,6 +48,37 @@ ul{
     color: var(--primary-color);
     font-weight: bold;
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
+.product_price_rate_container{
+    border-top: 1px solid #DEDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
 
+.price{
+    display: flex;
+    
+}
+
+.slated{
+    color: #b8b8b8;
+    font-family: var(--normal-font-family);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.actual_price{
+    margin-left: 10px;
+    font-family: var(--normal-font-family);
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.fa-star{
+    color: #FFA858;
+}

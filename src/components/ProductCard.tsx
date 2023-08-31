@@ -5,7 +5,7 @@ interface ProductCardProps {
 }
 
 const ProductCard: React.FC<ProductCardProps> = ({ item }) => {
-  return (
+  return (  
     <div className="product_box">
       <div className="category">Vegetable</div>
       <div className="product_image_container">
@@ -19,8 +19,24 @@ const ProductCard: React.FC<ProductCardProps> = ({ item }) => {
             Calabrese Broccoli
       </div>
 
-      <div className="pro">
+      <div className="product_price_rate_container">
+            <div className="price">
+                <div className="slated">
+                    <s>$20.0</s>
+                </div>
 
+                <div className="actual_price">
+                    $13.0
+                </div>
+            </div>
+
+            <div className="rating">
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+            </div>
       </div>
     </div>
   );
