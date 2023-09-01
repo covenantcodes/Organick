@@ -200,26 +200,60 @@ const Home = () => {
           Lorem Ipsum has been.
         </div>
 
-        <div className="rating_name">
-          Sara Taylor 
-        </div>
+        <div className="rating_name">Sara Taylor</div>
 
-
-        <div className="rating_category">
-            Consumer
-        </div>
+        <div className="rating_category">Consumer</div>
 
         <div className="rating_position">
-            <div className="circle">
-            </div>
-            <div className="circle active">
-            </div>
-            <div className="circle">
-            </div>
+          <div className="circle"></div>
+          <div className="circle active"></div>
+          <div className="circle"></div>
         </div>
 
         <div className="numbers_stuffs">
-            
+          <div className="numbers_circle_container">
+              <div className="numbers_circle_inner">
+                  <div className="number_text">
+                        100%
+                  </div>
+                  <div className="number_description">
+                      Organic
+                  </div>
+              </div>
+          </div>
+
+          <div className="numbers_circle_container">
+              <div className="numbers_circle_inner">
+                  <div className="number_text">
+                        285
+                  </div>
+                  <div className="number_description">
+                      Active Product
+                  </div>
+              </div>
+          </div>
+
+          <div className="numbers_circle_container">
+              <div className="numbers_circle_inner">
+                  <div className="number_text">
+                        350+
+                  </div>
+                  <div className="number_description">
+                  Organic Orchads
+                  </div>
+              </div>
+          </div>
+
+          <div className="numbers_circle_container">
+              <div className="numbers_circle_inner">
+                  <div className="number_text">
+                        25+
+                  </div>
+                  <div className="number_description">
+                      Years of Farming
+                  </div>
+              </div>
+          </div>
         </div>
       </div>
     </div>
