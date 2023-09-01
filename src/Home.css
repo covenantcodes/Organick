@@ -355,3 +355,61 @@
   font-size: 2rem;
   color: var(--secondary-color);
 }
+
+.customer_header_text{
+  font-family: var(--head-font-family);
+  font-size: 2rem;
+  color: var(--primary-color);
+  font-weight: bolder;
+  padding-top: 1rem;
+}
+
+.rating_text{
+  padding: 1.5rem;
+  font-family: var(--text-font-family);
+  width: 35%;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.rating_name{
+  font-size: 25px;
+  font-family: var(--head-font-family);
+  color: var(--primary-color);
+}
+
+.rating_category{
+  font-family: var(--text-font-family);
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.rating_stars{
+  padding: 1.5rem;
+}
+
+.rating_position{
+  padding: 1rem;
+  display: flex;
+  
+}
+
+.circle{
+  background-color: #C4C4C4;
+  height: .5rem;
+  width: .5rem;
+  border-radius: 50%;
+  margin: .2rem;
+}
+
+.active{
+  background-color: var(--secondary-color);
+}
+
+.numbers_stuff{
+  border: 1px solid red;
+  padding:1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

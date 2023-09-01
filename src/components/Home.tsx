@@ -164,7 +164,7 @@ const Home = () => {
           <ProductItem data={sampleData} />
 
           <div className="product_button">
-          <CustomButton
+            <CustomButton
               text="Explore Now"
               backgroundColor="#274C5B"
               textColor="#ffffff"
@@ -177,13 +177,50 @@ const Home = () => {
       </div>
 
       <div className="testimonial_container">
-          <div className="testimonial_head">
-                Testimonial
-          </div>
+        <div className="testimonial_head">Testimonial</div>
 
-          <div className="customer_header_text">
+        <div className="customer_header_text">
+          What Our Customers Are Saying?
+        </div>
+
+        <div className="profile_img">
+          <img src="../../img/profile.png" alt="" />
+        </div>
+        <div className="rating_stars">
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+        </div>
+
+        <div className="rating_text">
+          Simply dummy text of the printing and typesetting industry. Lorem
+          Ipsum simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been.
+        </div>
+
+        <div className="rating_name">
+          Sara Taylor 
+        </div>
+
+
+        <div className="rating_category">
+            Consumer
+        </div>
+
+        <div className="rating_position">
+            <div className="circle">
+            </div>
+            <div className="circle active">
+            </div>
+            <div className="circle">
+            </div>
+        </div>
+
+        <div className="numbers_stuffs">
             
-          </div>
+        </div>
       </div>
     </div>
   );
