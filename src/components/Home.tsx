@@ -313,9 +313,7 @@ const Home = () => {
             </div>
 
             <div className="eco_item_container">
-              <div className="eco_item_header">
-              Learn How to Grow Yourself
-              </div>
+              <div className="eco_item_header">Learn How to Grow Yourself</div>
 
               <div className="eco_item_list">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptat
@@ -324,9 +322,7 @@ const Home = () => {
             </div>
 
             <div className="eco_item_container">
-              <div className="eco_item_header">
-              Farming Strategies of Today
-              </div>
+              <div className="eco_item_header">Farming Strategies of Today</div>
 
               <div className="eco_item_list">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptat
@@ -338,9 +334,35 @@ const Home = () => {
       </div>
 
       <div className="sections_container">
-                  
+        <div className="section_box">
+          <div className="section_button">Organic Juice</div>
+        </div>
+
+        <div className="section_box">
+          <div className="section_button">Organic Food</div>
+        </div>
+
+        <div className="section_box">
+          <div className="section_button">Nuts Cookies</div>
+        </div>
       </div>
 
+      <div className="news_section">
+        <div className="testimonial_head">News</div>
+        <div className="news_header">
+          <div className="news_header_text">
+            Discover weekly content about organic food, & more
+          </div>
+          <div className="news_button">
+            More News
+            <i className="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+
+        <div className="news_box">
+              <img src="../../img/news_image.png" alt="" className="news_image"/>
+        </div>
+      </div>
     </div>
   );
 };
