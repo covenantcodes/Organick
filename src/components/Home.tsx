@@ -2,6 +2,7 @@ import "../Home.css";
 import "../App.css";
 import CustomButton from "./Button";
 import ProductItem from "../ProductItem";
+import CountUp from "react-countup";
 
 const sampleData = [
   { id: 1, name: "Product 1" },
@@ -212,49 +213,69 @@ const Home = () => {
 
         <div className="numbers_stuffs">
           <div className="numbers_circle_container">
-              <div className="numbers_circle_inner">
-                  <div className="number_text">
-                        100%
+            <div className="numbers_circle_inner">
+              <CountUp start={0} end={100} delay={1}>
+                {({ countUpRef }) => (
+                  <div>
+                    <span className="number_text" ref={countUpRef} />
                   </div>
-                  <div className="number_description">
-                      Organic
-                  </div>
-              </div>
+                )}
+              </CountUp>
+              <div className="number_description">Organic</div>
+            </div>
           </div>
 
           <div className="numbers_circle_container">
-              <div className="numbers_circle_inner">
-                  <div className="number_text">
-                        285
+            <div className="numbers_circle_inner">
+            <CountUp start={0} end={285} delay={1} suffix="+">
+                {({ countUpRef }) => (
+                  <div>
+                    <span className="number_text" ref={countUpRef} />
                   </div>
-                  <div className="number_description">
-                      Active Product
-                  </div>
-              </div>
+                )}
+              </CountUp>
+              <div className="number_description">Active Product</div>
+            </div>
           </div>
 
           <div className="numbers_circle_container">
-              <div className="numbers_circle_inner">
-                  <div className="number_text">
-                        350+
+            <div className="numbers_circle_inner">
+            <CountUp start={0} end={350} delay={1} suffix="+">
+                {({ countUpRef }) => (
+                  <div>
+                    <span className="number_text" ref={countUpRef} />
                   </div>
-                  <div className="number_description">
-                  Organic Orchads
-                  </div>
-              </div>
+                )}
+              </CountUp>
+              <div className="number_description">Organic Orchads</div>
+            </div>
           </div>
 
           <div className="numbers_circle_container">
-              <div className="numbers_circle_inner">
-                  <div className="number_text">
-                        25+
+            <div className="numbers_circle_inner">
+            <CountUp start={0} end={25} delay={1} suffix="+">
+                {({ countUpRef }) => (
+                  <div>
+                    <span className="number_text" ref={countUpRef} />
                   </div>
-                  <div className="number_description">
-                      Years of Farming
-                  </div>
-              </div>
+                )}
+              </CountUp>
+              <div className="number_description">Years of Farming</div>
+            </div>
           </div>
         </div>
+      </div>
+
+      <div className="shop_container">
+              <div className="shop_header">
+                  offer
+              </div>
+
+              <div className="shop_heading_container">
+                  <div className="shop_heading_text">
+                  We Offer Organic For You
+                  </div>
+              </div>
       </div>
     </div>
   );

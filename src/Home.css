@@ -332,14 +332,14 @@
   padding: 3rem;
 }
 
-.product_button{
+.product_button {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-bottom: 8rem;
 }
 
-.testimonial_container{
+.testimonial_container {
   background-image: url(../img/testimonial_bg.png);
   padding: 1rem;
   display: flex;
@@ -348,13 +348,13 @@
   justify-content: center;
 }
 
-.testimonial_head{
+.testimonial_head {
   font-family: var(--stylish-font-family);
   font-size: 2rem;
   color: var(--secondary-color);
 }
 
-.customer_header_text{
+.customer_header_text {
   font-family: var(--head-font-family);
   font-size: 2rem;
   color: var(--primary-color);
@@ -362,7 +362,7 @@
   padding-top: 1rem;
 }
 
-.rating_text{
+.rating_text {
   padding: 1.5rem;
   font-family: var(--text-font-family);
   width: 35%;
@@ -370,54 +370,53 @@
   color: var(--text-color);
 }
 
-.rating_name{
+.rating_name {
   font-size: 25px;
   font-family: var(--head-font-family);
   color: var(--primary-color);
 }
 
-.rating_category{
+.rating_category {
   font-family: var(--text-font-family);
   color: var(--text-color);
   font-weight: 500;
 }
 
-.rating_stars{
+.rating_stars {
   padding: 1.5rem;
 }
 
-.rating_position{
+.rating_position {
   padding: 1rem;
   display: flex;
-  
 }
 
-.circle{
-  background-color: #C4C4C4;
-  height: .5rem;
-  width: .5rem;
+.circle {
+  background-color: #c4c4c4;
+  height: 0.5rem;
+  width: 0.5rem;
   border-radius: 50%;
-  margin: .2rem;
+  margin: 0.2rem;
 }
 
-.active{
+.active {
   background-color: var(--secondary-color);
 }
 
-.numbers_stuffs{
-  padding:7rem;
+.numbers_stuffs {
+  padding: 5rem;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   width: 50%;
-
 }
 
-.numbers_circle_container{
-  border: 3px solid #7EB693;
-  padding: .5rem;
+.numbers_circle_container {
+  border: 3px solid #7eb693;
+  padding: 0.5rem;
   width: 10rem;
-  height  : 10rem;
+  height: 10rem;
   border-radius: 50%;
   display: flex;
   flex-direction: column;
@@ -425,7 +424,7 @@
   justify-content: center;
 }
 
-.numbers_circle_inner{
+.numbers_circle_inner {
   width: 10rem;
   height: 10rem;
   background-color: #f1f1f1;
@@ -436,15 +435,36 @@
   justify-content: center;
 }
 
-.number_text{
+.number_text {
   font-family: var(--head-font-family);
   font-size: 2.5rem;
   font-weight: bold;
   color: var(--primary-color);
 }
 
-.number_description{
+.number_description {
   font-family: var(--text-font-family);
   color: var(--primary-color);
   font-weight: 600;
+}
+
+.shop_container {
+  background-color: var(--primary-color);
+  padding: 8rem 20rem;
+}
+
+.shop_header{
+  font-family: var(--stylish-font-family);
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+
+.shop_heading_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop_heading_text{
+  
 }
