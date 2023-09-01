@@ -162,7 +162,9 @@ const Home = () => {
         <div className="products_header">Our Products</div>
 
         <div className="product_container">
-          <ProductItem data={sampleData} />
+          <div className="product_item_container">
+            <ProductItem data={sampleData} />
+          </div>
 
           <div className="product_button">
             <CustomButton
@@ -227,7 +229,7 @@ const Home = () => {
 
           <div className="numbers_circle_container">
             <div className="numbers_circle_inner">
-            <CountUp start={0} end={285} delay={1} suffix="+">
+              <CountUp start={0} end={285} delay={1} suffix="+">
                 {({ countUpRef }) => (
                   <div>
                     <span className="number_text" ref={countUpRef} />
@@ -240,7 +242,7 @@ const Home = () => {
 
           <div className="numbers_circle_container">
             <div className="numbers_circle_inner">
-            <CountUp start={0} end={350} delay={1} suffix="+">
+              <CountUp start={0} end={350} delay={1} suffix="+">
                 {({ countUpRef }) => (
                   <div>
                     <span className="number_text" ref={countUpRef} />
@@ -253,7 +255,7 @@ const Home = () => {
 
           <div className="numbers_circle_container">
             <div className="numbers_circle_inner">
-            <CountUp start={0} end={25} delay={1} suffix="+">
+              <CountUp start={0} end={25} delay={1} suffix="+">
                 {({ countUpRef }) => (
                   <div>
                     <span className="number_text" ref={countUpRef} />
@@ -267,15 +269,50 @@ const Home = () => {
       </div>
 
       <div className="shop_container">
-              <div className="shop_header">
-                  offer
+        <div className="shop_header">offer</div>
+
+        <div className="shop_heading_container">
+          <div className="shop_heading_text">We Offer Organic For You</div>
+
+          <div className="view_product_button">
+            <CustomButton
+              text="View All Product"
+              backgroundColor="#efd372"
+              textColor="#274c5b"
+              iconColor="#ffffff"
+              width="190px"
+            />
+          </div>
+        </div>
+
+        <ProductItem data={sampleData} />
+      </div>
+
+      <div className="eco_friendly_container">
+        <div className="eco_img">
+          <img src="img/ecobg.png" alt="" />
+        </div>
+
+        <div className="eco_box">
+          <div className="eco_main">
+            <div className="testimonial_head">Eco Friendly </div>
+            <div className="eco_box_header">
+              Econis is a Friendly <br />
+              Organic Store
+            </div>
+
+            <div className="eco_item_container">
+              <div className="eco_item_header">
+                Start with Our Company First
               </div>
 
-              <div className="shop_heading_container">
-                  <div className="shop_heading_text">
-                  We Offer Organic For You
-                  </div>
+              <div className="eco_item_list">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptat
+                accusantium doloremque laudantium. Sed ut perspiciatis.
               </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

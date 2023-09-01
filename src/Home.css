@@ -449,8 +449,9 @@
 }
 
 .shop_container {
+
   background-color: var(--primary-color);
-  padding: 8rem 20rem;
+  padding: 8rem 10rem;
 }
 
 .shop_header{
@@ -461,10 +462,56 @@
 
 .shop_heading_container{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
+.shop_heading_box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 .shop_heading_text{
+  font-family: var(--head-font-family);
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  padding-top: 1.5rem;
+}
+
+.eco_friendly_container{
+  display: flex
+}
+
+.eco_box{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.eco_main{
+  border: 1px solid red;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.eco_item_container{
   
+}
+
+.eco_box_header{
+  font-size: 2rem;
+  font-family: var(--head-font-family);
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.eco_item_header{
+  font-family: var(--head-font-family);
+  color: var(--primary-color);
 }
