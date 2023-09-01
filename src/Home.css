@@ -486,22 +486,28 @@
 }
 
 .eco_box{
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .eco_main{
-  border: 1px solid red;
-
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 70%;
+  padding: 3rem;
+  border-radius: 30px;
+  margin-left: -5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .eco_item_container{
-  
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+    width: 70%;
+
 }
 
 .eco_box_header{
@@ -514,4 +520,11 @@
 .eco_item_header{
   font-family: var(--head-font-family);
   color: var(--primary-color);
+  font-weight: bold;
+}
+
+.eco_item_list{
+  padding-top: .3rem;
+  font-family: var(--text-font-family);
+  color: var(--text-color);
 }

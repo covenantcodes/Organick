@@ -311,9 +311,36 @@ const Home = () => {
                 accusantium doloremque laudantium. Sed ut perspiciatis.
               </div>
             </div>
+
+            <div className="eco_item_container">
+              <div className="eco_item_header">
+              Learn How to Grow Yourself
+              </div>
+
+              <div className="eco_item_list">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptat
+                accusantium doloremque laudantium. Sed ut perspiciatis.
+              </div>
+            </div>
+
+            <div className="eco_item_container">
+              <div className="eco_item_header">
+              Farming Strategies of Today
+              </div>
+
+              <div className="eco_item_list">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptat
+                accusantium doloremque laudantium. Sed ut perspiciatis.
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
+      <div className="sections_container">
+                  
+      </div>
+
     </div>
   );
 };
