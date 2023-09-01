@@ -4,10 +4,10 @@ import CustomButton from "./Button";
 import ProductItem from "../ProductItem";
 
 const sampleData = [
-  { id: 1, name: 'Product 1' },
-  { id: 2, name: 'Product 2' },
-  { id: 3, name: 'Product 3' },
-  { id: 4, name: 'Product 4' },
+  { id: 1, name: "Product 1" },
+  { id: 2, name: "Product 2" },
+  { id: 3, name: "Product 3" },
+  { id: 4, name: "Product 4" },
 ];
 
 const Home = () => {
@@ -151,21 +151,38 @@ const Home = () => {
               iconColor="#ffff"
               iconBackgroundColor="#335B6B"
               width="140px"
-          />
+            />
           </div>
         </div>
       </div>
 
       <div className="categories">
-          <div className="categories_header">
-              Categories
+        <div className="categories_header">Categories</div>
+        <div className="products_header">Our Products</div>
+
+        <div className="product_container">
+          <ProductItem data={sampleData} />
+
+          <div className="product_button">
+          <CustomButton
+              text="Explore Now"
+              backgroundColor="#274C5B"
+              textColor="#ffffff"
+              iconColor="#ffff"
+              iconBackgroundColor="#335B6B"
+              width="140px"
+            />
           </div>
-          <div className="products_header">
-              Our Products
+        </div>
+      </div>
+
+      <div className="testimonial_container">
+          <div className="testimonial_head">
+                Testimonial
           </div>
 
-          <div className="product_container">
-              <ProductItem data={sampleData} />
+          <div className="customer_header_text">
+            
           </div>
       </div>
     </div>
