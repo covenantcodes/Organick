@@ -566,10 +566,11 @@ const Home = () => {
         </div>
 
         <div className="news_main_container">
-          <div className="news_main" 
-             data-aos="fade-right"
-             data-aos-duration="1000"
-             data-aos-easing="ease-in-out"
+          <div
+            className="news_main"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
           >
             <div className="news_box">
               <div className="date_box">
@@ -609,10 +610,11 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="news_main"
-             data-aos="fade-left"
-             data-aos-duration="1300"
-             data-aos-easing="ease-in-out"
+          <div
+            className="news_main"
+            data-aos="fade-left"
+            data-aos-duration="1300"
+            data-aos-easing="ease-in-out"
           >
             <div className="news_box">
               <div className="date_box">
@@ -644,7 +646,7 @@ const Home = () => {
 
               <CustomButton
                 text="Read More"
-                backgroundColor="#efd372"news_div
+                backgroundColor="#efd372"
                 textColor="#274c5b"
                 iconColor="#ffffff"
                 width="120px"
@@ -655,7 +657,12 @@ const Home = () => {
       </div>
 
       <div className="subscribe_newsletter_container">
-        <div className="subscribe_newsletter_main">
+        <div
+          className="subscribe_newsletter_main"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
           <div className="subscribe_text">
             Subscribe to <br />
             our Newsletter
@@ -672,7 +679,12 @@ const Home = () => {
       </div>
 
       <div className="footer">
-        <div className="footer_box">
+        <div
+          className="footer_box"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
           <div className="footer_subheader">Contact Us</div>
           <div className="footer_item">
             <div className="footer_item_header">Email</div>
@@ -690,7 +702,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="footer_about_box">
+        <div className="footer_about_box"
+             data-aos="zoom-in"
+             data-aos-duration="1300"
+             data-aos-easing="ease-in-out"
+        >
           <div className="footer_logo">
             <img src="img/Logo.png" alt="" />
             Organick
@@ -721,7 +737,12 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="footer_box">
+        <div
+          className="footer_box"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
           <div className="footer_utility_subheader">Utility</div>
           <div className="footer_item">
             <div className="footer_utility_text">needhelp@Organick.com</div>
