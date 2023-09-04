@@ -348,7 +348,7 @@ const Home = () => {
       </div>
 
       <div className="news_section">
-        <div className="testimonial_head">News</div>
+        <div className="news_head">News</div>
         <div className="news_header">
           <div className="news_header_text">
             Discover weekly content about organic food, & more
@@ -359,8 +359,150 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="news_box">
-              <img src="../../img/news_image.png" alt="" className="news_image"/>
+        <div className="news_main_container">
+          <div className="news_main">
+            <div className="news_box">
+              <div className="date_box">
+                25 <br /> Nov
+              </div>
+              <div>
+                <img
+                  src="../../img/news_image.png"
+                  alt=""
+                  className="news_image"
+                />
+              </div>
+            </div>
+
+            <div className="news_div">
+              <div className="author_header">
+                <i className="fa-solid fa-user"></i>
+                By Rachi Card
+              </div>
+
+              <div className="news_header_description">
+                The Benefits of Vitamin D & How to Get It
+              </div>
+
+              <div className="news_description_text">
+                Simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum
+              </div>
+
+              <CustomButton
+                text="Read More"
+                backgroundColor="#efd372"
+                textColor="#274c5b"
+                iconColor="#ffffff"
+                width="120px"
+              />
+            </div>
+          </div>
+
+          <div className="news_main">
+            <div className="news_box">
+              <div className="date_box">
+                25 <br /> Nov
+              </div>
+              <div>
+                <img
+                  src="../../img/news_image_1.png"
+                  alt=""
+                  className="news_image"
+                />
+              </div>
+            </div>
+
+            <div className="news_div">
+              <div className="author_header">
+                <i className="fa-solid fa-user"></i>
+                By Rachi Card
+              </div>
+
+              <div className="news_header_description">
+                The Benefits of Vitamin D & How to Get It
+              </div>
+
+              <div className="news_description_text">
+                Simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum
+              </div>
+
+              <CustomButton
+                text="Read More"
+                backgroundColor="#efd372"
+                textColor="#274c5b"
+                iconColor="#ffffff"
+                width="120px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="subscribe_newsletter_container">
+        <div className="subscribe_newsletter_main">
+          <div className="subscribe_text">
+            Subscribe to <br />
+            our Newsletter
+          </div>
+          <div className="input_container">
+            <input
+              type="text"
+              placeholder="Your Email Address"
+              className="sub_email_input"
+            />
+            <div className="subscribe_button">Subscribe</div>
+          </div>
+        </div>
+      </div>
+
+      <div className="footer">
+        <div className="footer_box">
+          <div className="footer_subheader">Contact Us</div>
+          <div className="footer_item">
+            <div className="footer_item_header">Email</div>
+            <div className="footer_item_text">needhelp@Organick.com</div>
+          </div>
+
+          <div className="footer_item">
+            <div className="footer_item_header">Phone</div>
+            <div className="footer_item_text">666 888 888</div>
+          </div>
+
+          <div className="footer_item">
+            <div className="footer_item_header">Address</div>
+            <div className="footer_item_text">88 road, borklyn street, USA</div>
+          </div>
+        </div>
+
+        <div className="footer_about_box">
+          <div className="footer_logo">
+            <img src="img/Logo.png" alt="" />
+            Organick
+          </div>
+          <div className="footer_item">
+            <div className="footer_about_text">
+              Simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum simply dummy text of the printing
+            </div>
+          </div>
+        </div>
+
+        <div className="footer_box">
+          <div className="footer_utility_subheader">Utility</div>
+          <div className="footer_item">
+            <div className="footer_utility_text">needhelp@Organick.com</div>
+          </div>
+
+          <div className="footer_item">
+                       <div className="footer_utility_text">666 888 888</div>
+          </div>
+
+          <div className="footer_item">
+            
+            <div className="footer_utility_text">88 road, borklyn street, USA</div>
+          </div>
         </div>
       </div>
     </div>
