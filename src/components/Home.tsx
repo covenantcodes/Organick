@@ -4,6 +4,7 @@ import CustomButton from "./Button";
 import ProductItem from "../ProductItem";
 import CountUp from "react-countup";
 
+
 const sampleData = [
   { id: 1, name: "Product 1" },
   { id: 2, name: "Product 2" },
@@ -502,7 +503,7 @@ const Home = () => {
             </div>
 
             <div className="footer_social_box">
-            <i class="fa-brands fa-pinterest"></i>
+            <i className="fa-brands fa-pinterest"></i>
             </div>
           </div>
         </div>
