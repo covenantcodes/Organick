@@ -489,8 +489,20 @@ const Home = () => {
           </div>
 
           <div className="footer_socials">
+          <div className="footer_social_box">
+              <i className="fa-brands fa-instagram"></i>
+            </div>
+
             <div className="footer_social_box">
               <i className="fa-brands fa-facebook"></i>
+            </div>
+
+            <div className="footer_social_box">
+              <i className="fa-brands fa-twitter"></i>
+            </div>
+
+            <div className="footer_social_box">
+            <i class="fa-brands fa-pinterest"></i>
             </div>
           </div>
         </div>
