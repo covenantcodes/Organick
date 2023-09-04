@@ -197,7 +197,7 @@
 }
 
 .info_container {
-  padding: 10rem;
+  padding: 8rem 10rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -341,7 +341,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 8rem;
 }
 
 .testimonial_container {
@@ -842,4 +841,16 @@
 .footer_utility_text{
   color: var(--text-color);
   font-family: var(--text-font-family);
+}
+
+
+.footer_socials{
+  border: 1px solid red;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer_social_box{
+  
 }

@@ -487,6 +487,12 @@ const Home = () => {
               Ipsum simply dummy text of the printing
             </div>
           </div>
+
+          <div className="footer_socials">
+            <div className="footer_social_box">
+              <i className="fa-brands fa-facebook"></i>
+            </div>
+          </div>
         </div>
 
         <div className="footer_box">
@@ -496,12 +502,13 @@ const Home = () => {
           </div>
 
           <div className="footer_item">
-                       <div className="footer_utility_text">666 888 888</div>
+            <div className="footer_utility_text">666 888 888</div>
           </div>
 
           <div className="footer_item">
-            
-            <div className="footer_utility_text">88 road, borklyn street, USA</div>
+            <div className="footer_utility_text">
+              88 road, Brooklyn street, USA
+            </div>
           </div>
         </div>
       </div>
