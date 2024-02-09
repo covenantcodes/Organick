@@ -10,7 +10,7 @@ TypeScript: Built entirely with TypeScript, ensuring type safety and improved de
 Scalable and Maintainable: The project is structured to be scalable and maintainable, allowing for easy addition of new features and enhancements.
 
 ## Sample ScreenShot
-![Organick Logo](./img/Homepage1.jpg)
+![Organick](./img/Homepage1.jpg)
 
 ## Installation
 To run Organick locally, follow these steps:
