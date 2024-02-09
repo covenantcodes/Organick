@@ -9,10 +9,13 @@ TypeScript: Built entirely with TypeScript, ensuring type safety and improved de
 
 Scalable and Maintainable: The project is structured to be scalable and maintainable, allowing for easy addition of new features and enhancements.
 
+## Sample ScreenShot
+![Organick Logo](./img/Homepage1.jpg)
+
 ## Installation
 To run Organick locally, follow these steps:
 
-Clone this repository: ```git clone https://github.com/your-username/Organick.git```
+Clone this repository: ```git clone https://github.com/your-usename/Organick.git```
 
 Navigate to the project directory: ```cd Organick```
 
